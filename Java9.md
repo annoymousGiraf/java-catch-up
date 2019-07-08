@@ -12,7 +12,7 @@ First part of Starting to catch up from Java8
 
 ## 1. Most Significant Features in Java 9
 #### Project Jigsaw
-TBD
+TBD - Might be a thing of it's on as this is one of the major features of *Java 9*
 
 #### Langauge Featuers
 1. Enhancements to the Streams API.
@@ -24,3 +24,4 @@ TBD
 7. Publish-Subscribe Framework
 8. Unified JVM Logging
 9. New APIs
+10. Try With Resources Improvement
