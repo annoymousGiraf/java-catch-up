@@ -1,4 +1,4 @@
-# <img src="https://github.com/anonymousGiraffe/Java-catch-up/blob/master/java.png" width="48"> catch-up 
+# <img src="https://github.com/annoymousGiraf/java-catch-up/blob/master/java.png" width="48"> catch-up 
 Working towards catching up with the newest java from java 8
 
 
