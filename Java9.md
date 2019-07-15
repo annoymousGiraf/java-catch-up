@@ -29,12 +29,15 @@ TBD - Might be a thing of it's on as this is one of the major features of *Java 
 ## Drill Down
 
 #### 1.  [Streams API](#stream-api)
-1.1.1
+	
+  1. takeWhile/DropWhile
+		
+	
 
 
 #### Comments
 1. `_` is a reserved keyword since Java 9
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc1MjQ2ODUsLTU3OTYxNzgwMiwtODg0Mz
-gzNDIwLC05ODk5Mjk4Ml19
+eyJoaXN0b3J5IjpbLTcxMDc0MTU5NCwtNTc5NjE3ODAyLC04OD
+QzODM0MjAsLTk4OTkyOTgyXX0=
 -->
