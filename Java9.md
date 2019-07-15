@@ -28,12 +28,13 @@ TBD - Might be a thing of it's on as this is one of the major features of *Java 
 
 ## Drill Down
 
-#### [1. Streams API](#stream-api)
+#### 1.  [Streams API](#stream-api)
 
 
 
 #### Comments
 1. `_` is a reserved keyword since Java 9
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4NDM4MzQyMCwtOTg5OTI5ODJdfQ==
+eyJoaXN0b3J5IjpbLTU3OTYxNzgwMiwtODg0MzgzNDIwLC05OD
+k5Mjk4Ml19
 -->
