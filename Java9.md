@@ -15,7 +15,7 @@ First part of Starting to catch up from Java8
 TBD - Might be a thing of it's on as this is one of the major features of *Java 9*
 
 #### Language Features
-1. Enhancements to the Streams API.
+1. [Enhancements to the Streams API.](#stream-api)
 2. Code cache can be divided in Java 9
 3. HTTP/2 client API comes to Java 9 (Beta)
 4. DTLS security API is added to Java 9
@@ -28,12 +28,12 @@ TBD - Might be a thing of it's on as this is one of the major features of *Java 
 
 ## Drill Down
 
-#### [1. Streams API
+#### [1. Streams API](#stream-api)
 
 
 
 #### Comments
 1. `_` is a reserved keyword since Java 9
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5ODYyMzY3NywtOTg5OTI5ODJdfQ==
+eyJoaXN0b3J5IjpbLTg4NDM4MzQyMCwtOTg5OTI5ODJdfQ==
 -->
