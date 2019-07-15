@@ -32,12 +32,12 @@ TBD - Might be a thing of it's on as this is one of the major features of *Java 
 	
   1. takeWhile/DropWhile
 		
-	
+		predicate functional interface 
 
 
 #### Comments
 1. `_` is a reserved keyword since Java 9
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxMDc0MTU5NCwtNTc5NjE3ODAyLC04OD
-QzODM0MjAsLTk4OTkyOTgyXX0=
+eyJoaXN0b3J5IjpbLTEwNzk4NjAzMzUsLTU3OTYxNzgwMiwtOD
+g0MzgzNDIwLC05ODk5Mjk4Ml19
 -->
