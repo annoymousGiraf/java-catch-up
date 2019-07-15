@@ -14,7 +14,7 @@ First part of Starting to catch up from Java8
 #### Project Jigsaw
 TBD - Might be a thing of it's on as this is one of the major features of *Java 9*
 
-#### Langauge Featuers
+#### Language Features
 1. Enhancements to the Streams API.
 2. Code cache can be divided in Java 9
 3. HTTP/2 client API comes to Java 9 (Beta)
@@ -28,11 +28,11 @@ TBD - Might be a thing of it's on as this is one of the major features of *Java 
 
 ## Drill Down
 
-
+#### 1. Streams API
 
 
 #### Comments
 1. `_` is a reserved keyword since Java 9
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzkyNDIyMDcwXX0=
+eyJoaXN0b3J5IjpbMTI1MDYxNDM2XX0=
 -->
