@@ -83,10 +83,12 @@ HttpRequest httpRequest  =  HttpRequest.newBuilder()
 Handle async calls.
 ```java
 HttpClient httpClient  =  HttpClient.newHttpClient();  //Create a HttpClient
-HttpRequest httpRequest = HttpRequest.
-newBuilder().uri(new URI("http://www.localhost:3000"))
+HttpRequest httpRequest = HttpRequest.newBuilder()
+.uri(new URI("http://www.localhost:3000"))
 .GET().build();
+
 System.out.println("Calling...");
+
 CompletableFuture<HttpResponse<String>> httpResponse =  httpClient
 .sendAsync(httpRequest,HttpResponse.BodyHandler.asString(); //Send the request asynchronously
 System.out.println("Performing Other Task");
@@ -101,8 +103,9 @@ the request running in the background allowing the code to continue with the oth
 #### Comments
 1. `_` is a reserved keyword since Java 9
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzkwMjQ0MzA3LDg1Njg2MDM4MCwtMTMxMj
-Y1MzgzOCwtMTI5MTgyNjQ1MCwtNTE4ODkwNzA4LC0xNjYwMzg3
-MTkyLC0xMjcwNzEwODMyLC03NjgxNTAzODcsLTk0MDIwOTMxOS
-wtNTc5NjE3ODAyLC04ODQzODM0MjAsLTk4OTkyOTgyXX0=
+eyJoaXN0b3J5IjpbLTE5ODMwMTA2NjksODU2ODYwMzgwLC0xMz
+EyNjUzODM4LC0xMjkxODI2NDUwLC01MTg4OTA3MDgsLTE2NjAz
+ODcxOTIsLTEyNzA3MTA4MzIsLTc2ODE1MDM4NywtOTQwMjA5Mz
+E5LC01Nzk2MTc4MDIsLTg4NDM4MzQyMCwtOTg5OTI5ODJdfQ==
+
 -->
