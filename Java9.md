@@ -96,7 +96,8 @@ System.out.println("Performing Other Task");
 
 if(httpResponse.isDone()) {
 	System.out.println("Status 	Code:"+httpResponse.get().statusCode());
-} else {
+} 
+else {
 	httpResponse.cancel(true);
 }
 ```
@@ -105,7 +106,7 @@ the request running in the background allowing the code to continue with the oth
 #### Comments
 1. `_` is a reserved keyword since Java 9
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxNDc0NDMyMCw4NTY4NjAzODAsLTEzMT
+eyJoaXN0b3J5IjpbLTk4ODMzOTUzOCw4NTY4NjAzODAsLTEzMT
 I2NTM4MzgsLTEyOTE4MjY0NTAsLTUxODg5MDcwOCwtMTY2MDM4
 NzE5MiwtMTI3MDcxMDgzMiwtNzY4MTUwMzg3LC05NDAyMDkzMT
 ksLTU3OTYxNzgwMiwtODg0MzgzNDIwLC05ODk5Mjk4Ml19
