@@ -56,13 +56,16 @@ TBD - Might be a thing of it's on as this is one of the major features of *Java 
 	 `Stream.ofNullable(emp).flatMap(Employee::roles)`
 
 #### 2. Factory Methods for Collections.
-		Java 9 comes with a set of static methods to initilize 
+
+  Java 9 comes with a set of static methods to initialize collection in easier way, rather than creating the desired collection and then adding elements to it we n
+
+ 
 
 #### Comments
 1. `_` is a reserved keyword since Java 9
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4NTMyNDk0MywtMTI5MTgyNjQ1MCwtNT
-E4ODkwNzA4LC0xNjYwMzg3MTkyLC0xMjcwNzEwODMyLC03Njgx
-NTAzODcsLTk0MDIwOTMxOSwtNTc5NjE3ODAyLC04ODQzODM0Mj
-AsLTk4OTkyOTgyXX0=
+eyJoaXN0b3J5IjpbLTIxMTc1MDA2NzIsLTEyOTE4MjY0NTAsLT
+UxODg5MDcwOCwtMTY2MDM4NzE5MiwtMTI3MDcxMDgzMiwtNzY4
+MTUwMzg3LC05NDAyMDkzMTksLTU3OTYxNzgwMiwtODg0MzgzND
+IwLC05ODk5Mjk4Ml19
 -->
