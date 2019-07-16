@@ -38,10 +38,10 @@ TBD - Might be a thing of it's on as this is one of the major features of *Java 
 
 		**dropWhile** - will drop all values until  the predicate is not met
 		`Stream.of("a","b","c","","e").dropWhile(str -> str.isEmpty())`
-		
+		output will be `e` in that case it will not take any value until the condition will be true
 #### Comments
 1. `_` is a reserved keyword since Java 9
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODU4NDkxNzIsLTk0MDIwOTMxOSwtNT
-c5NjE3ODAyLC04ODQzODM0MjAsLTk4OTkyOTgyXX0=
+eyJoaXN0b3J5IjpbMTI1MjA3MTcyNCwtOTQwMjA5MzE5LC01Nz
+k2MTc4MDIsLTg4NDM4MzQyMCwtOTg5OTI5ODJdfQ==
 -->
