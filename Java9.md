@@ -150,15 +150,16 @@ The process API gives us a better control on spinning process on the OS level wi
 *the main process might not have a permission to open a new process*
 
 #### 6. Variable Handles
+variable handles is a typed reference to a variable. the variable can be an array element, instance or static field VarHandles are immutable and doesnt have any visible state 
 
 
 #### Comments
 1. `_` is a reserved keyword since Java 9
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzODgwNzA1OSwtNDEzMzczMjEzLDE1Nz
-Q1OTU1OCwtMTYxMzc5NjYxMywyNjAyNjMyMjIsLTc0MjA1NDQy
-LDg1Njg2MDM4MCwtMTMxMjY1MzgzOCwtMTI5MTgyNjQ1MCwtNT
-E4ODkwNzA4LC0xNjYwMzg3MTkyLC0xMjcwNzEwODMyLC03Njgx
-NTAzODcsLTk0MDIwOTMxOSwtNTc5NjE3ODAyLC04ODQzODM0Mj
-AsLTk4OTkyOTgyXX0=
+eyJoaXN0b3J5IjpbNzY3OTc1NzI3LC00MTMzNzMyMTMsMTU3ND
+U5NTU4LC0xNjEzNzk2NjEzLDI2MDI2MzIyMiwtNzQyMDU0NDIs
+ODU2ODYwMzgwLC0xMzEyNjUzODM4LC0xMjkxODI2NDUwLC01MT
+g4OTA3MDgsLTE2NjAzODcxOTIsLTEyNzA3MTA4MzIsLTc2ODE1
+MDM4NywtOTQwMjA5MzE5LC01Nzk2MTc4MDIsLTg4NDM4MzQyMC
+wtOTg5OTI5ODJdfQ==
 -->
