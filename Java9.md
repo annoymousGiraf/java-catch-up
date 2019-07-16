@@ -93,8 +93,9 @@ CompletableFuture<HttpResponse<String>> httpResponse =  httpClient
 	.sendAsync(httpRequest,HttpResponse.BodyHandler)
 	.asString(); //Send the request asynchronously
 System.out.println("Performing Other Task");
+
 if(httpResponse.isDone()) {
-	System.out.println("Status Code:"+httpResponse.get().statusCode());
+	System.out.println("Status 	Code:"+httpResponse.get().statusCode());
 } else {
 	httpResponse.cancel(true);
 }
@@ -104,9 +105,8 @@ the request running in the background allowing the code to continue with the oth
 #### Comments
 1. `_` is a reserved keyword since Java 9
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzg2NTM0NDYsODU2ODYwMzgwLC0xMz
-EyNjUzODM4LC0xMjkxODI2NDUwLC01MTg4OTA3MDgsLTE2NjAz
-ODcxOTIsLTEyNzA3MTA4MzIsLTc2ODE1MDM4NywtOTQwMjA5Mz
-E5LC01Nzk2MTc4MDIsLTg4NDM4MzQyMCwtOTg5OTI5ODJdfQ==
-
+eyJoaXN0b3J5IjpbMTgxNDc0NDMyMCw4NTY4NjAzODAsLTEzMT
+I2NTM4MzgsLTEyOTE4MjY0NTAsLTUxODg5MDcwOCwtMTY2MDM4
+NzE5MiwtMTI3MDcxMDgzMiwtNzY4MTUwMzg3LC05NDAyMDkzMT
+ksLTU3OTYxNzgwMiwtODg0MzgzNDIwLC05ODk5Mjk4Ml19
 -->
