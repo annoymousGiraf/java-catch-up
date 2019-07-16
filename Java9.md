@@ -149,13 +149,16 @@ The process API gives us a better control on spinning process on the OS level wi
 
 *the main process might not have a permission to open a new process*
 
+#### 6. Variable Handles
+
+
 #### Comments
 1. `_` is a reserved keyword since Java 9
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjE4NzQ2MDAsLTQxMzM3MzIxMywxNT
-c0NTk1NTgsLTE2MTM3OTY2MTMsMjYwMjYzMjIyLC03NDIwNTQ0
-Miw4NTY4NjAzODAsLTEzMTI2NTM4MzgsLTEyOTE4MjY0NTAsLT
-UxODg5MDcwOCwtMTY2MDM4NzE5MiwtMTI3MDcxMDgzMiwtNzY4
-MTUwMzg3LC05NDAyMDkzMTksLTU3OTYxNzgwMiwtODg0MzgzND
-IwLC05ODk5Mjk4Ml19
+eyJoaXN0b3J5IjpbMTgzODgwNzA1OSwtNDEzMzczMjEzLDE1Nz
+Q1OTU1OCwtMTYxMzc5NjYxMywyNjAyNjMyMjIsLTc0MjA1NDQy
+LDg1Njg2MDM4MCwtMTMxMjY1MzgzOCwtMTI5MTgyNjQ1MCwtNT
+E4ODkwNzA4LC0xNjYwMzg3MTkyLC0xMjcwNzEwODMyLC03Njgx
+NTAzODcsLTk0MDIwOTMxOSwtNTc5NjE3ODAyLC04ODQzODM0Mj
+AsLTk4OTkyOTgyXX0=
 -->
