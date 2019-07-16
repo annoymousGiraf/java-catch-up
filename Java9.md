@@ -96,12 +96,13 @@ System.out.println("Status Code:"+httpResponse.get().statusCode());
 httpResponse.cancel(true);
 }
 ```
-the request running in the background allowing the code to continue with the other tasks than handles the response with a `completableFuture`
+the request running in the background allowing the code to continue with the other tasks than handles the response with a `completableFuture`.
+
 #### Comments
 1. `_` is a reserved keyword since Java 9
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0NzEyNDg0Nyw4NTY4NjAzODAsLTEzMT
-I2NTM4MzgsLTEyOTE4MjY0NTAsLTUxODg5MDcwOCwtMTY2MDM4
-NzE5MiwtMTI3MDcxMDgzMiwtNzY4MTUwMzg3LC05NDAyMDkzMT
-ksLTU3OTYxNzgwMiwtODg0MzgzNDIwLC05ODk5Mjk4Ml19
+eyJoaXN0b3J5IjpbMzkwMjQ0MzA3LDg1Njg2MDM4MCwtMTMxMj
+Y1MzgzOCwtMTI5MTgyNjQ1MCwtNTE4ODkwNzA4LC0xNjYwMzg3
+MTkyLC0xMjcwNzEwODMyLC03NjgxNTAzODcsLTk0MDIwOTMxOS
+wtNTc5NjE3ODAyLC04ODQzODM0MjAsLTk4OTkyOTgyXX0=
 -->
