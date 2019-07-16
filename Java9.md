@@ -100,14 +100,14 @@ else {
 	httpResponse.cancel(true);
 }
 ```
-the request running in the background allowing the code to continue with the other tasks than handles the response with a `completableFuture`.
+the request running in the background allowing the code to continue with the other tasks then handles the response with a `completableFuture`.
 
 #### Comments
 1. `_` is a reserved keyword since Java 9
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjYwMjYzMjIyLC03NDIwNTQ0Miw4NTY4Nj
-AzODAsLTEzMTI2NTM4MzgsLTEyOTE4MjY0NTAsLTUxODg5MDcw
-OCwtMTY2MDM4NzE5MiwtMTI3MDcxMDgzMiwtNzY4MTUwMzg3LC
-05NDAyMDkzMTksLTU3OTYxNzgwMiwtODg0MzgzNDIwLC05ODk5
-Mjk4Ml19
+eyJoaXN0b3J5IjpbODM3OTAyMDAyLDI2MDI2MzIyMiwtNzQyMD
+U0NDIsODU2ODYwMzgwLC0xMzEyNjUzODM4LC0xMjkxODI2NDUw
+LC01MTg4OTA3MDgsLTE2NjAzODcxOTIsLTEyNzA3MTA4MzIsLT
+c2ODE1MDM4NywtOTQwMjA5MzE5LC01Nzk2MTc4MDIsLTg4NDM4
+MzQyMCwtOTg5OTI5ODJdfQ==
 -->
