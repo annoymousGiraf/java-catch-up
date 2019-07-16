@@ -104,14 +104,21 @@ the request running in the background allowing the code to continue with the oth
 
 #### 4. DTLS security API  with Java 9
 
+TLS support provided with Java secure socket extension API. DTLS provides is essentially TLS over UDP so that you can encrypt communication established by unreliable protocols running over UDP. 
+```java
 
+SSLContext sslContext = SSLContext.getInstance("DTLS");  
+sslContext.init(…)  
+SSLEngine engine = sslContext.createSSLEngine();  
+engine.setUseClientMode(…);
 
+```
 #### Comments
 1. `_` is a reserved keyword since Java 9
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDMzOTUzNjUsLTE2MTM3OTY2MTMsMj
-YwMjYzMjIyLC03NDIwNTQ0Miw4NTY4NjAzODAsLTEzMTI2NTM4
-MzgsLTEyOTE4MjY0NTAsLTUxODg5MDcwOCwtMTY2MDM4NzE5Mi
-wtMTI3MDcxMDgzMiwtNzY4MTUwMzg3LC05NDAyMDkzMTksLTU3
-OTYxNzgwMiwtODg0MzgzNDIwLC05ODk5Mjk4Ml19
+eyJoaXN0b3J5IjpbMjAwNDI0ODQzMiwtMTYxMzc5NjYxMywyNj
+AyNjMyMjIsLTc0MjA1NDQyLDg1Njg2MDM4MCwtMTMxMjY1Mzgz
+OCwtMTI5MTgyNjQ1MCwtNTE4ODkwNzA4LC0xNjYwMzg3MTkyLC
+0xMjcwNzEwODMyLC03NjgxNTAzODcsLTk0MDIwOTMxOSwtNTc5
+NjE3ODAyLC04ODQzODM0MjAsLTk4OTkyOTgyXX0=
 -->
