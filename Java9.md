@@ -16,7 +16,7 @@ TBD - Might be a thing of it's on as this is one of the major features of *Java 
 
 #### Language Features
 1. [Enhancements to the Streams API.](#stream-api)
-2. [Factory Methods for Collections.](#2-factory-methods-for-collections))
+2. [Factory Methods for Collections.](#2-factory-methods-for-collections)
 3. [HTTP/2 client API comes to Java 9 (Beta)](#3-http2-client-api-comes-to-java-9-beta)
 4. DTLS security API is added to Java 9
 5. Process API
@@ -105,9 +105,9 @@ the request running in the background allowing the code to continue with the oth
 #### Comments
 1. `_` is a reserved keyword since Java 9
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTk4NTAxNzQsLTc0MjA1NDQyLDg1Nj
-g2MDM4MCwtMTMxMjY1MzgzOCwtMTI5MTgyNjQ1MCwtNTE4ODkw
-NzA4LC0xNjYwMzg3MTkyLC0xMjcwNzEwODMyLC03NjgxNTAzOD
-csLTk0MDIwOTMxOSwtNTc5NjE3ODAyLC04ODQzODM0MjAsLTk4
-OTkyOTgyXX0=
+eyJoaXN0b3J5IjpbMTE2NTc3MjE0MywtNzQyMDU0NDIsODU2OD
+YwMzgwLC0xMzEyNjUzODM4LC0xMjkxODI2NDUwLC01MTg4OTA3
+MDgsLTE2NjAzODcxOTIsLTEyNzA3MTA4MzIsLTc2ODE1MDM4Ny
+wtOTQwMjA5MzE5LC01Nzk2MTc4MDIsLTg4NDM4MzQyMCwtOTg5
+OTI5ODJdfQ==
 -->
