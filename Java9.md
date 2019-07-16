@@ -126,15 +126,23 @@ and (on the TLS server)
 `-Djdk.tls.server.enableStatusRequestExtension=true`
 
 #### 5. Process API
+Java 9 adds several new methods to the abstract  `Process`  class that let you identify direct child or descendent processes, obtain this  `Process`'s PID, return a snapshot of information about this  `Process`, obtain a completable future to receive asynchronous notification when this  `Process`  exits, and more:
 
+-   Stream<ProcessHandle> children()
+-   Stream<ProcessHandle> descendants()
+-   long getPid()
+-   ProcessHandle.Info info()
+-   CompletableFuture<Process> onExit()
+-   boolean supportsNormalTermination()
+-   ProcessHandle toHandle()
 
 #### Comments
 1. `_` is a reserved keyword since Java 9
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE0MTM4NTgyLDE1NzQ1OTU1OCwtMTYxMz
-c5NjYxMywyNjAyNjMyMjIsLTc0MjA1NDQyLDg1Njg2MDM4MCwt
-MTMxMjY1MzgzOCwtMTI5MTgyNjQ1MCwtNTE4ODkwNzA4LC0xNj
-YwMzg3MTkyLC0xMjcwNzEwODMyLC03NjgxNTAzODcsLTk0MDIw
-OTMxOSwtNTc5NjE3ODAyLC04ODQzODM0MjAsLTk4OTkyOTgyXX
-0=
+eyJoaXN0b3J5IjpbLTExODczNDI2MDMsMTU3NDU5NTU4LC0xNj
+EzNzk2NjEzLDI2MDI2MzIyMiwtNzQyMDU0NDIsODU2ODYwMzgw
+LC0xMzEyNjUzODM4LC0xMjkxODI2NDUwLC01MTg4OTA3MDgsLT
+E2NjAzODcxOTIsLTEyNzA3MTA4MzIsLTc2ODE1MDM4NywtOTQw
+MjA5MzE5LC01Nzk2MTc4MDIsLTg4NDM4MzQyMCwtOTg5OTI5OD
+JdfQ==
 -->
