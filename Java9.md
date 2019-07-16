@@ -51,15 +51,15 @@ TBD - Might be a thing of it's on as this is one of the major features of *Java 
 
 	**ofNullable** - the intention is to have an option of having Optionals in the stream and avoid NPE, this will reduce the boiler plate code of having null checks on each streamline function as we did up until now on Java 8 then we can safely execute the following snippet. 
 
-	`Employee emp = getEmployee(empId);  
+	`Employee emp = getEmployee(empId);`  
 	
-	 Stream.ofNullable(emp).flatMap(Employee::roles)`
+	 `Stream.ofNullable(emp).flatMap(Employee::roles)`
 
 #### Comments
 1. `_` is a reserved keyword since Java 9
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3NzkxMTUxMCwtNTE4ODkwNzA4LC0xNj
-YwMzg3MTkyLC0xMjcwNzEwODMyLC03NjgxNTAzODcsLTk0MDIw
-OTMxOSwtNTc5NjE3ODAyLC04ODQzODM0MjAsLTk4OTkyOTgyXX
-0=
+eyJoaXN0b3J5IjpbLTEyOTE4MjY0NTAsLTUxODg5MDcwOCwtMT
+Y2MDM4NzE5MiwtMTI3MDcxMDgzMiwtNzY4MTUwMzg3LC05NDAy
+MDkzMTksLTU3OTYxNzgwMiwtODg0MzgzNDIwLC05ODk5Mjk4Ml
+19
 -->
