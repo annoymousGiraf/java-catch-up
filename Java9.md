@@ -34,14 +34,14 @@ TBD - Might be a thing of it's on as this is one of the major features of *Java 
 		
 		**takeWhile** - predicate functional interface will take all the values until the predicate
 	    `Stream.of("a","b","c","","e").takeWhile(str -> !str.isEmpty())`
-		the stream will be `abc`
+		the stream will be `abc` in the case the stream will take values until the the predicate will not be true anymore.
 
 		**dropWhile** - will drop all values until  the predicate is not met
-		`Stream.of("a","b","c","","e").dropWhile(str -> str.isEmpty())`
+		`Stream.of("a","b","c","","e").dropWhile(str -> !str.isEmpty())`
 		output will be `e` in that case it will not take any value until the condition will be true
 #### Comments
 1. `_` is a reserved keyword since Java 9
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1MjA3MTcyNCwtOTQwMjA5MzE5LC01Nz
+eyJoaXN0b3J5IjpbLTc2ODE1MDM4NywtOTQwMjA5MzE5LC01Nz
 k2MTc4MDIsLTg4NDM4MzQyMCwtOTg5OTI5ODJdfQ==
 -->
