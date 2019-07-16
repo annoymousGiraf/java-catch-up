@@ -16,7 +16,7 @@ TBD - Might be a thing of it's on as this is one of the major features of *Java 
 
 #### Language Features
 1. [Enhancements to the Streams API.](#stream-api)
-2. Code cache can be divided in Java 9
+2. Factory Methods for Collections.
 3. HTTP/2 client API comes to Java 9 (Beta)
 4. DTLS security API is added to Java 9
 5. Process API
@@ -55,11 +55,14 @@ TBD - Might be a thing of it's on as this is one of the major features of *Java 
 	
 	 `Stream.ofNullable(emp).flatMap(Employee::roles)`
 
+#### 2. Factory Methods for Collections.
+		Java 9 comes with a set of static methods to initilize 
+
 #### Comments
 1. `_` is a reserved keyword since Java 9
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTE4MjY0NTAsLTUxODg5MDcwOCwtMT
-Y2MDM4NzE5MiwtMTI3MDcxMDgzMiwtNzY4MTUwMzg3LC05NDAy
-MDkzMTksLTU3OTYxNzgwMiwtODg0MzgzNDIwLC05ODk5Mjk4Ml
-19
+eyJoaXN0b3J5IjpbLTY4NTMyNDk0MywtMTI5MTgyNjQ1MCwtNT
+E4ODkwNzA4LC0xNjYwMzg3MTkyLC0xMjcwNzEwODMyLC03Njgx
+NTAzODcsLTk0MDIwOTMxOSwtNTc5NjE3ODAyLC04ODQzODM0Mj
+AsLTk4OTkyOTgyXX0=
 -->
