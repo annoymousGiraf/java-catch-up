@@ -32,7 +32,8 @@ TBD - Might be a thing of it's on as this is one of the major features of *Java 
 	
   1. takeWhile/DropWhile
 		
-		*
+		* we need to bare in mind that an unordered stream will change the desired outcome of this functions.
+
 		**takeWhile** - predicate functional interface will take all the values until the predicate
 	   
 	    `Stream.of("a","b","c","","e").takeWhile(str -> !str.isEmpty())`
@@ -64,8 +65,8 @@ TBD - Might be a thing of it's on as this is one of the major features of *Java 
 #### Comments
 1. `_` is a reserved keyword since Java 9
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0MDMzODgxMSwtMTI5MTgyNjQ1MCwtNT
-E4ODkwNzA4LC0xNjYwMzg3MTkyLC0xMjcwNzEwODMyLC03Njgx
-NTAzODcsLTk0MDIwOTMxOSwtNTc5NjE3ODAyLC04ODQzODM0Mj
-AsLTk4OTkyOTgyXX0=
+eyJoaXN0b3J5IjpbLTEzMTI2NTM4MzgsLTEyOTE4MjY0NTAsLT
+UxODg5MDcwOCwtMTY2MDM4NzE5MiwtMTI3MDcxMDgzMiwtNzY4
+MTUwMzg3LC05NDAyMDkzMTksLTU3OTYxNzgwMiwtODg0MzgzND
+IwLC05ODk5Mjk4Ml19
 -->
