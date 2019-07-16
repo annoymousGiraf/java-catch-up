@@ -18,13 +18,15 @@ TBD - Might be a thing of it's on as this is one of the major features of *Java 
 1. [Enhancements to the Streams API.](#1--streams-api)
 2. [Factory Methods for Collections.](#2-factory-methods-for-collections)
 3. [HTTP/2 client API comes to Java 9 (Beta)](#3-http2-client-api-comes-to-java-9-beta)
-4. DTLS security API is added to Java 9
+4. [DTLS security API is added to Java 9](#4-dtls-security-api--with-java-9)
 5. Process API
 6. Variable Handles
 7. Publish-Subscribe Framework
 8. Unified JVM Logging
 9. New APIs
 10. Try With Resources Improvement
+
+
 ## Drill Down
 
 #### 1.  Streams API
@@ -127,9 +129,9 @@ and (on the TLS server)
 #### Comments
 1. `_` is a reserved keyword since Java 9
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0MTU0MjE2MywtMTYxMzc5NjYxMywyNj
-AyNjMyMjIsLTc0MjA1NDQyLDg1Njg2MDM4MCwtMTMxMjY1Mzgz
-OCwtMTI5MTgyNjQ1MCwtNTE4ODkwNzA4LC0xNjYwMzg3MTkyLC
-0xMjcwNzEwODMyLC03NjgxNTAzODcsLTk0MDIwOTMxOSwtNTc5
-NjE3ODAyLC04ODQzODM0MjAsLTk4OTkyOTgyXX0=
+eyJoaXN0b3J5IjpbMTU3NDU5NTU4LC0xNjEzNzk2NjEzLDI2MD
+I2MzIyMiwtNzQyMDU0NDIsODU2ODYwMzgwLC0xMzEyNjUzODM4
+LC0xMjkxODI2NDUwLC01MTg4OTA3MDgsLTE2NjAzODcxOTIsLT
+EyNzA3MTA4MzIsLTc2ODE1MDM4NywtOTQwMjA5MzE5LC01Nzk2
+MTc4MDIsLTg4NDM4MzQyMCwtOTg5OTI5ODJdfQ==
 -->
