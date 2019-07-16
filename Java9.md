@@ -52,9 +52,10 @@ TBD - Might be a thing of it's on as this is one of the major features of *Java 
 
 	**ofNullable** - the intention is to have an option of having Optionals in the stream and avoid NPE, this will reduce the boiler plate code of having null checks on each streamline function as we did up until now on Java 8 then we can safely execute the following snippet. 
 
-	`Employee emp = getEmployee(empId);`  
-	
-	 `Stream.ofNullable(emp).flatMap(Employee::roles)`
+	```java
+	Employee emp = getEmployee(empId);  
+	Stream.ofNullable(emp).flatMap(Employee::roles)
+	 ```
 
 #### 2. Factory Methods for Collections.
 
@@ -70,12 +71,17 @@ HTTP/2 can send multiple requests for data in parallel over a single TCP connect
 
 **Bare in mind that it is still incubating in Java 9** 
  
+```java
+HttpClient httpClient  =  HttpClient.newHttpClient();  //Create a HttpClient
 
+HttpRequest httpRequest  =  HttpRequest.
+newBuilder().uri(new  URI("http://localhost:3000")).GET().build();
+```
 #### Comments
 1. `_` is a reserved keyword since Java 9
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU2ODYwMzgwLC0xMzEyNjUzODM4LC0xMj
-kxODI2NDUwLC01MTg4OTA3MDgsLTE2NjAzODcxOTIsLTEyNzA3
-MTA4MzIsLTc2ODE1MDM4NywtOTQwMjA5MzE5LC01Nzk2MTc4MD
-IsLTg4NDM4MzQyMCwtOTg5OTI5ODJdfQ==
+eyJoaXN0b3J5IjpbMTQzNzEzODk2NCw4NTY4NjAzODAsLTEzMT
+I2NTM4MzgsLTEyOTE4MjY0NTAsLTUxODg5MDcwOCwtMTY2MDM4
+NzE5MiwtMTI3MDcxMDgzMiwtNzY4MTUwMzg3LC05NDAyMDkzMT
+ksLTU3OTYxNzgwMiwtODg0MzgzNDIwLC05ODk5Mjk4Ml19
 -->
