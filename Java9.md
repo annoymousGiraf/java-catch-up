@@ -80,7 +80,7 @@ HttpRequest httpRequest  =  HttpRequest.newBuilder()
 .uri(new  URI("http://localhost:3000"))
 .GET().build();
 ```
-
+Handle async calls.
 ```java
 HttpClient httpClient  =  HttpClient.newHttpClient();  //Create a HttpClient
 HttpRequest httpRequest = HttpRequest.
@@ -96,13 +96,12 @@ System.out.println("Status Code:"+httpResponse.get().statusCode());
 httpResponse.cancel(true);
 }
 ```
-
+the request running in the background allowing the code to continue with the other tasks than handles the response with a `completableFuture`
 #### Comments
 1. `_` is a reserved keyword since Java 9
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTk1MTQwNDUsODU2ODYwMzgwLC0xMz
-EyNjUzODM4LC0xMjkxODI2NDUwLC01MTg4OTA3MDgsLTE2NjAz
-ODcxOTIsLTEyNzA3MTA4MzIsLTc2ODE1MDM4NywtOTQwMjA5Mz
-E5LC01Nzk2MTc4MDIsLTg4NDM4MzQyMCwtOTg5OTI5ODJdfQ==
-
+eyJoaXN0b3J5IjpbMTU0NzEyNDg0Nyw4NTY4NjAzODAsLTEzMT
+I2NTM4MzgsLTEyOTE4MjY0NTAsLTUxODg5MDcwOCwtMTY2MDM4
+NzE5MiwtMTI3MDcxMDgzMiwtNzY4MTUwMzg3LC05NDAyMDkzMT
+ksLTU3OTYxNzgwMiwtODg0MzgzNDIwLC05ODk5Mjk4Ml19
 -->
