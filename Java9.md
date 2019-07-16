@@ -2,7 +2,7 @@
 ### Welcome to Java9
 First part of Starting to catch up from Java8
 
-1. Most Significant Features in Java 9
+1. [Most Significant Features in Java 9](#1-most-significant-features-in-java-9)
     * Changes to the JVM
     * Changes in the Language
 2. Drill Down
@@ -105,9 +105,9 @@ the request running in the background allowing the code to continue with the oth
 #### Comments
 1. `_` is a reserved keyword since Java 9
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2ODAyNjA3OCwtNzQyMDU0NDIsODU2OD
-YwMzgwLC0xMzEyNjUzODM4LC0xMjkxODI2NDUwLC01MTg4OTA3
-MDgsLTE2NjAzODcxOTIsLTEyNzA3MTA4MzIsLTc2ODE1MDM4Ny
-wtOTQwMjA5MzE5LC01Nzk2MTc4MDIsLTg4NDM4MzQyMCwtOTg5
-OTI5ODJdfQ==
+eyJoaXN0b3J5IjpbMjYwMjYzMjIyLC03NDIwNTQ0Miw4NTY4Nj
+AzODAsLTEzMTI2NTM4MzgsLTEyOTE4MjY0NTAsLTUxODg5MDcw
+OCwtMTY2MDM4NzE5MiwtMTI3MDcxMDgzMiwtNzY4MTUwMzg3LC
+05NDAyMDkzMTksLTU3OTYxNzgwMiwtODg0MzgzNDIwLC05ODk5
+Mjk4Ml19
 -->
