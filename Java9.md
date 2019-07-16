@@ -57,15 +57,15 @@ TBD - Might be a thing of it's on as this is one of the major features of *Java 
 
 #### 2. Factory Methods for Collections.
 
-  Java 9 comes with a set of static methods to initialize collection in easier way, rather than creating the desired collection and then adding elements to it we n
+  Java 9 comes with a set of static methods to initialize collection in easier way, rather than creating the desired collection and then adding elements to it we now have a static method in each one of them for an instance `Set.of("a","b","c")` it was implemented in with overloading function up until 10 from 0 for the sake of performance, but also have a varargs version. 
 
  
 
 #### Comments
 1. `_` is a reserved keyword since Java 9
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTc1MDA2NzIsLTEyOTE4MjY0NTAsLT
-UxODg5MDcwOCwtMTY2MDM4NzE5MiwtMTI3MDcxMDgzMiwtNzY4
-MTUwMzg3LC05NDAyMDkzMTksLTU3OTYxNzgwMiwtODg0MzgzND
-IwLC05ODk5Mjk4Ml19
+eyJoaXN0b3J5IjpbMTcxNzcyMTc1NSwtMTI5MTgyNjQ1MCwtNT
+E4ODkwNzA4LC0xNjYwMzg3MTkyLC0xMjcwNzEwODMyLC03Njgx
+NTAzODcsLTk0MDIwOTMxOSwtNTc5NjE3ODAyLC04ODQzODM0Mj
+AsLTk4OTkyOTgyXX0=
 -->
