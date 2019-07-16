@@ -154,15 +154,16 @@ variable handles is a typed reference to a variable. the variable can be an arra
 
 ```java
 VarHandle handle = MethodHandles.lookup()
-.in(VariableHandlesTest.class)
-.findVarHandle(VariableHandlesTest.class,"publicTestVariable",int.class);
+.in(InspectedClass.class)
+.findVarHandle(InspectedClass.class,"somePublicVar",int.class);
 
 ```
+can be used also to reflect on private variables but i wont recommend that pattern.
 
 #### Comments
 1. `_` is a reserved keyword since Java 9
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1MzAzNjEzOSwtNDEzMzczMjEzLDE1Nz
+eyJoaXN0b3J5IjpbLTQxNDYxNjU1MSwtNDEzMzczMjEzLDE1Nz
 Q1OTU1OCwtMTYxMzc5NjYxMywyNjAyNjMyMjIsLTc0MjA1NDQy
 LDg1Njg2MDM4MCwtMTMxMjY1MzgzOCwtMTI5MTgyNjQ1MCwtNT
 E4ODkwNzA4LC0xNjYwMzg3MTkyLC0xMjcwNzEwODMyLC03Njgx
