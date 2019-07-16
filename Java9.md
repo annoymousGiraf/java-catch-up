@@ -145,15 +145,15 @@ Runtime.getRuntime().exec().ProcessBuilder....
 
 ```
 
-The process API gives us a better c
+The process API gives us a better control on spinning process on the OS level with more fine grain detail support and a way to handle the process. with additional features 
 
 #### Comments
 1. `_` is a reserved keyword since Java 9
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ0MjkyOTExLDE1NzQ1OTU1OCwtMTYxMz
-c5NjYxMywyNjAyNjMyMjIsLTc0MjA1NDQyLDg1Njg2MDM4MCwt
-MTMxMjY1MzgzOCwtMTI5MTgyNjQ1MCwtNTE4ODkwNzA4LC0xNj
-YwMzg3MTkyLC0xMjcwNzEwODMyLC03NjgxNTAzODcsLTk0MDIw
-OTMxOSwtNTc5NjE3ODAyLC04ODQzODM0MjAsLTk4OTkyOTgyXX
-0=
+eyJoaXN0b3J5IjpbLTQxMzM3MzIxMywxNTc0NTk1NTgsLTE2MT
+M3OTY2MTMsMjYwMjYzMjIyLC03NDIwNTQ0Miw4NTY4NjAzODAs
+LTEzMTI2NTM4MzgsLTEyOTE4MjY0NTAsLTUxODg5MDcwOCwtMT
+Y2MDM4NzE5MiwtMTI3MDcxMDgzMiwtNzY4MTUwMzg3LC05NDAy
+MDkzMTksLTU3OTYxNzgwMiwtODg0MzgzNDIwLC05ODk5Mjk4Ml
+19
 -->
