@@ -95,7 +95,7 @@ CompletableFuture<HttpResponse<String>> httpResponse =  httpClient
 System.out.println("Performing Other Task");
 
 if(httpResponse.isDone()) {
-	System.out.println("Status 	Code:"+httpResponse.get().statusCode());
+System.out.println("Status Code:"+httpResponse.get().statusCode());
 } 
 else {
 	httpResponse.cancel(true);
@@ -106,8 +106,8 @@ the request running in the background allowing the code to continue with the oth
 #### Comments
 1. `_` is a reserved keyword since Java 9
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4ODMzOTUzOCw4NTY4NjAzODAsLTEzMT
-I2NTM4MzgsLTEyOTE4MjY0NTAsLTUxODg5MDcwOCwtMTY2MDM4
-NzE5MiwtMTI3MDcxMDgzMiwtNzY4MTUwMzg3LC05NDAyMDkzMT
-ksLTU3OTYxNzgwMiwtODg0MzgzNDIwLC05ODk5Mjk4Ml19
+eyJoaXN0b3J5IjpbLTc0MjA1NDQyLDg1Njg2MDM4MCwtMTMxMj
+Y1MzgzOCwtMTI5MTgyNjQ1MCwtNTE4ODkwNzA4LC0xNjYwMzg3
+MTkyLC0xMjcwNzEwODMyLC03NjgxNTAzODcsLTk0MDIwOTMxOS
+wtNTc5NjE3ODAyLC04ODQzODM0MjAsLTk4OTkyOTgyXX0=
 -->
