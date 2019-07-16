@@ -113,10 +113,21 @@ SSLEngine engine = sslContext.createSSLEngine();
 engine.setUseClientMode(…);
 
 ```
+in Java 9 you need to enable it though:
+
+`-Djdk.tls.client.enableStatusRequestExtension=true ` 
+
+`-Dcom.sun.net.ssl.checkRevocation=true`
+
+and (on the TLS server)
+
+`-Djdk.tls.server.enableStatusRequestExtension=true`
+
+
 #### Comments
 1. `_` is a reserved keyword since Java 9
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwNDI0ODQzMiwtMTYxMzc5NjYxMywyNj
+eyJoaXN0b3J5IjpbLTQ0MTU0MjE2MywtMTYxMzc5NjYxMywyNj
 AyNjMyMjIsLTc0MjA1NDQyLDg1Njg2MDM4MCwtMTMxMjY1Mzgz
 OCwtMTI5MTgyNjQ1MCwtNTE4ODkwNzA4LC0xNjYwMzg3MTkyLC
 0xMjcwNzEwODMyLC03NjgxNTAzODcsLTk0MDIwOTMxOSwtNTc5
