@@ -152,11 +152,17 @@ The process API gives us a better control on spinning process on the OS level wi
 #### 6. Variable Handles
 variable handles is a typed reference to a variable. the variable can be an array element, instance or static field VarHandles are immutable and doesnt have any visible state, it can be used to provide read/write access to variables.
 
+```java
+VarHandle handle = MethodHandles.lookup()
+.in(VariableHandlesTest.class)
+.findVarHandle(VariableHandlesTest.class,"publicTestVariable",int.class);
+
+```
 
 #### Comments
 1. `_` is a reserved keyword since Java 9
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2MjY3MjA5NCwtNDEzMzczMjEzLDE1Nz
+eyJoaXN0b3J5IjpbMTA1MzAzNjEzOSwtNDEzMzczMjEzLDE1Nz
 Q1OTU1OCwtMTYxMzc5NjYxMywyNjAyNjMyMjIsLTc0MjA1NDQy
 LDg1Njg2MDM4MCwtMTMxMjY1MzgzOCwtMTI5MTgyNjQ1MCwtNT
 E4ODkwNzA4LC0xNjYwMzg3MTkyLC0xMjcwNzEwODMyLC03Njgx
