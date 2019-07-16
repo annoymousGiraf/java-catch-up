@@ -42,12 +42,13 @@ TBD - Might be a thing of it's on as this is one of the major features of *Java 
 2. Iterate
 	**iterate**  - now takes 3 parameters `seed` where to start, which value? second `predicate` hasNext? stop condition. `next` what to do with the next value
 	example: 	`IntStream.iterate(1, x-> x < 10 , x-> x+1)`
-
+3. ofNullable
+	**ofNullable** - the it
 
 #### Comments
 1. `_` is a reserved keyword since Java 9
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxNDAwNzkwMSwtNzY4MTUwMzg3LC05ND
-AyMDkzMTksLTU3OTYxNzgwMiwtODg0MzgzNDIwLC05ODk5Mjk4
-Ml19
+eyJoaXN0b3J5IjpbLTExNTU0MzMzMjksLTc2ODE1MDM4NywtOT
+QwMjA5MzE5LC01Nzk2MTc4MDIsLTg4NDM4MzQyMCwtOTg5OTI5
+ODJdfQ==
 -->
