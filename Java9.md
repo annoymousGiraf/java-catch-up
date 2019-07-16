@@ -61,12 +61,13 @@ TBD - Might be a thing of it's on as this is one of the major features of *Java 
   Java 9 comes with a set of static methods to initialize collection in easier way, rather than creating the desired collection and then adding elements to it we now have a static method in each one of them for an instance `Set.of("a","b","c")` it was implemented in with overloading function up until 10 from 0 for the sake of performance, but also have a varargs version to support arbitrary amount of variables.
 
  
+ #### 3. HTTP/2 client API comes to Java 9 (Beta)
 
 #### Comments
 1. `_` is a reserved keyword since Java 9
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTI2NTM4MzgsLTEyOTE4MjY0NTAsLT
-UxODg5MDcwOCwtMTY2MDM4NzE5MiwtMTI3MDcxMDgzMiwtNzY4
-MTUwMzg3LC05NDAyMDkzMTksLTU3OTYxNzgwMiwtODg0MzgzND
-IwLC05ODk5Mjk4Ml19
+eyJoaXN0b3J5IjpbMTczNjQzOTQ3MywtMTMxMjY1MzgzOCwtMT
+I5MTgyNjQ1MCwtNTE4ODkwNzA4LC0xNjYwMzg3MTkyLC0xMjcw
+NzEwODMyLC03NjgxNTAzODcsLTk0MDIwOTMxOSwtNTc5NjE3OD
+AyLC04ODQzODM0MjAsLTk4OTkyOTgyXX0=
 -->
