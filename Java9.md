@@ -33,16 +33,15 @@ TBD - Might be a thing of it's on as this is one of the major features of *Java 
   1. takeWhile/DropWhile
 		
 		takeWhile - predicate functional interface will take all the values until the predicate
- 
+	    `Stream.of("a","b","c","").takeWhile(str -> !str.isEmpty())`
 
-	    `enter code here`
-		
-dropWhile - will drop all values who does not answer the predicate
+
+		dropWhile - will drop all values who does not answer the predicate
 
 
 #### Comments
 1. `_` is a reserved keyword since Java 9
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA3OTQwMzE3LC05NDAyMDkzMTksLTU3OT
-YxNzgwMiwtODg0MzgzNDIwLC05ODk5Mjk4Ml19
+eyJoaXN0b3J5IjpbLTEzNTA5MTM0NTcsLTk0MDIwOTMxOSwtNT
+c5NjE3ODAyLC04ODQzODM0MjAsLTk4OTkyOTgyXX0=
 -->
