@@ -39,12 +39,15 @@ TBD - Might be a thing of it's on as this is one of the major features of *Java 
 		**dropWhile** - will drop all values until  the predicate is not met
 		`Stream.of("a","b","c","","e").dropWhile(str -> !str.isEmpty())`
 		output will be `e` in that case it will not take any value until the condition will be true
-		**iterate** now takes 3 parameters `seed` where to start, which value? second `predicate` hasNext? stop condition. `next` what to do with the next value
-		`IntStream.iterate(1, x-> x < 10 , x-> x+1)`
+	2. Iterate
+	2.	**iterate**  - now takes 3 parameters `seed` where to start, which value? second `predicate` hasNext? stop condition. `next` what to do with the next value
+	example: 	`IntStream.iterate(1, x-> x < 10 , x-> x+1)`
+
+
 #### Comments
 1. `_` is a reserved keyword since Java 9
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI0ODg1MDkyLC03NjgxNTAzODcsLTk0MD
-IwOTMxOSwtNTc5NjE3ODAyLC04ODQzODM0MjAsLTk4OTkyOTgy
-XX0=
+eyJoaXN0b3J5IjpbLTE0ODcwNDQ2MjMsLTc2ODE1MDM4NywtOT
+QwMjA5MzE5LC01Nzk2MTc4MDIsLTg4NDM4MzQyMCwtOTg5OTI5
+ODJdfQ==
 -->
