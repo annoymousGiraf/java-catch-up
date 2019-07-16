@@ -16,7 +16,7 @@ TBD - Might be a thing of it's on as this is one of the major features of *Java 
 
 #### Language Features
 1. [Enhancements to the Streams API.](#stream-api)
-2. Factory Methods for Collections.
+2. [Factory Methods for Collections.](#2-factory-methods-for-collections))
 3. HTTP/2 client API comes to Java 9 (Beta)
 4. DTLS security API is added to Java 9
 5. Process API
@@ -25,7 +25,6 @@ TBD - Might be a thing of it's on as this is one of the major features of *Java 
 8. Unified JVM Logging
 9. New APIs
 10. Try With Resources Improvement
-
 ## Drill Down
 
 #### 1.  [Streams API](#stream-api)
@@ -106,8 +105,9 @@ the request running in the background allowing the code to continue with the oth
 #### Comments
 1. `_` is a reserved keyword since Java 9
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0MjA1NDQyLDg1Njg2MDM4MCwtMTMxMj
-Y1MzgzOCwtMTI5MTgyNjQ1MCwtNTE4ODkwNzA4LC0xNjYwMzg3
-MTkyLC0xMjcwNzEwODMyLC03NjgxNTAzODcsLTk0MDIwOTMxOS
-wtNTc5NjE3ODAyLC04ODQzODM0MjAsLTk4OTkyOTgyXX0=
+eyJoaXN0b3J5IjpbLTE2NjI1ODkwNTEsLTc0MjA1NDQyLDg1Nj
+g2MDM4MCwtMTMxMjY1MzgzOCwtMTI5MTgyNjQ1MCwtNTE4ODkw
+NzA4LC0xNjYwMzg3MTkyLC0xMjcwNzEwODMyLC03NjgxNTAzOD
+csLTk0MDIwOTMxOSwtNTc5NjE3ODAyLC04ODQzODM0MjAsLTk4
+OTkyOTgyXX0=
 -->
