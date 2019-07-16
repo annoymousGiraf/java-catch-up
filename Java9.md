@@ -20,7 +20,7 @@ TBD - Might be a thing of it's on as this is one of the major features of *Java 
 3. [HTTP/2 client API comes to Java 9 (Beta)](#3-http2-client-api-comes-to-java-9-beta)
 4. [DTLS security API is added to Java 9](#4-dtls-security-api--with-java-9)
 5. [Process API](#5-process-api)
-6. Variable Handles
+6. [Variable Handles](#6-variable-handles)
 7. Publish-Subscribe Framework
 8. Unified JVM Logging
 9. New APIs
@@ -165,7 +165,7 @@ the variable handlers have a `get()` and `set()` methods to modify the value.
 #### Comments
 1. `_` is a reserved keyword since Java 9
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDMyNTQ4NTgsLTQxMzM3MzIxMywxNT
+eyJoaXN0b3J5IjpbLTE2NTEyNjk5NTEsLTQxMzM3MzIxMywxNT
 c0NTk1NTgsLTE2MTM3OTY2MTMsMjYwMjYzMjIyLC03NDIwNTQ0
 Miw4NTY4NjAzODAsLTEzMTI2NTM4MzgsLTEyOTE4MjY0NTAsLT
 UxODg5MDcwOCwtMTY2MDM4NzE5MiwtMTI3MDcxMDgzMiwtNzY4
