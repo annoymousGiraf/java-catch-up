@@ -84,13 +84,14 @@ Handle async calls.
 ```java
 HttpClient httpClient  =  HttpClient.newHttpClient();  //Create a HttpClient
 HttpRequest httpRequest = HttpRequest.newBuilder()
-.uri(new URI("http://www.localhost:3000"))
-.GET().build();
+	.uri(new URI("http://www.localhost:3000"))
+	.GET().build();
 
 System.out.println("Calling...");
 
 CompletableFuture<HttpResponse<String>> httpResponse =  httpClient
-.sendAsync(httpRequest,HttpResponse.BodyHandler.asString(); //Send the request asynchronously
+	.sendAsync(httpRequest,HttpResponse.BodyHandler)
+	.asString(); //Send the request asynchronously
 System.out.println("Performing Other Task");
 if(httpResponse.isDone()) {
 	System.out.println("Status Code:"+httpResponse.get().statusCode());
@@ -103,7 +104,7 @@ the request running in the background allowing the code to continue with the oth
 #### Comments
 1. `_` is a reserved keyword since Java 9
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzcyNjkyOTMsODU2ODYwMzgwLC0xMz
+eyJoaXN0b3J5IjpbLTEwMzg2NTM0NDYsODU2ODYwMzgwLC0xMz
 EyNjUzODM4LC0xMjkxODI2NDUwLC01MTg4OTA3MDgsLTE2NjAz
 ODcxOTIsLTEyNzA3MTA4MzIsLTc2ODE1MDM4NywtOTQwMjA5Mz
 E5LC01Nzk2MTc4MDIsLTg4NDM4MzQyMCwtOTg5OTI5ODJdfQ==
