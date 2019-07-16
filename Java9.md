@@ -70,18 +70,21 @@ In Java 9 Oracle started supporting HTTP/2 Protocol as well as WebSocket feature
 HTTP/2 can send multiple requests for data in parallel over a single TCP connection. it allows to download web files via Async mode from one server, Most of the modern browsers limit TCP connection to one server.  while in HTTP/1 you needed 3 different  connections to download 3 files. it is using header compression to reduce overhead hence less bandwidth.  it allows servers to push responses proactively to the clients instead of waiting for a new request for each resource. 
 
 **Bare in mind that it is still incubating in Java 9** 
- 
+
+Some code examples on the new API 
+
 ```java
 HttpClient httpClient  =  HttpClient.newHttpClient();  //Create a HttpClient
 
-HttpRequest httpRequest  =  HttpRequest.
-newBuilder().uri(new  URI("http://localhost:3000")).GET().build();
+HttpRequest httpRequest  =  HttpRequest.newBuilder()
+.uri(new  URI("http://localhost:3000"))
+.GET().build();
 ```
 #### Comments
 1. `_` is a reserved keyword since Java 9
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzNzEzODk2NCw4NTY4NjAzODAsLTEzMT
-I2NTM4MzgsLTEyOTE4MjY0NTAsLTUxODg5MDcwOCwtMTY2MDM4
-NzE5MiwtMTI3MDcxMDgzMiwtNzY4MTUwMzg3LC05NDAyMDkzMT
-ksLTU3OTYxNzgwMiwtODg0MzgzNDIwLC05ODk5Mjk4Ml19
+eyJoaXN0b3J5IjpbODE4NzU1NTgsODU2ODYwMzgwLC0xMzEyNj
+UzODM4LC0xMjkxODI2NDUwLC01MTg4OTA3MDgsLTE2NjAzODcx
+OTIsLTEyNzA3MTA4MzIsLTc2ODE1MDM4NywtOTQwMjA5MzE5LC
+01Nzk2MTc4MDIsLTg4NDM4MzQyMCwtOTg5OTI5ODJdfQ==
 -->
