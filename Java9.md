@@ -63,12 +63,15 @@ TBD - Might be a thing of it's on as this is one of the major features of *Java 
  
  #### 3. HTTP/2 client API comes to Java 9 (Beta)
 
-In Java 9 Oracle started supporting HTTP/2 Protocol as well as WebSocket features. while the current protocol supported
+In Java 9 Oracle started supporting HTTP/2 Protocol as well as WebSocket features. while the current protocol supported Websocket only on blocking mode. 
+##### What is HTTP/2 ?
+
+HTTP/2 can send mu;tiple requests for data in parallel over a single TCP co
 #### Comments
 1. `_` is a reserved keyword since Java 9
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc2MTU5ODU1LC0xMzEyNjUzODM4LC0xMj
-kxODI2NDUwLC01MTg4OTA3MDgsLTE2NjAzODcxOTIsLTEyNzA3
-MTA4MzIsLTc2ODE1MDM4NywtOTQwMjA5MzE5LC01Nzk2MTc4MD
-IsLTg4NDM4MzQyMCwtOTg5OTI5ODJdfQ==
+eyJoaXN0b3J5IjpbMTAwMjU4MzY0NywtMTMxMjY1MzgzOCwtMT
+I5MTgyNjQ1MCwtNTE4ODkwNzA4LC0xNjYwMzg3MTkyLC0xMjcw
+NzEwODMyLC03NjgxNTAzODcsLTk0MDIwOTMxOSwtNTc5NjE3OD
+AyLC04ODQzODM0MjAsLTk4OTkyOTgyXX0=
 -->
