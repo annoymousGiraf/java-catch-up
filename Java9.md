@@ -4,7 +4,7 @@ First part of Starting to catch up from Java8
 
 1. [Most Significant Features in Java 9](#1-most-significant-features-in-java-9)
     * Changes to the JVM
-    * Changes in the Language
+    * [Changes in the Language](#language-features)
 2. Drill Down
 3. Code Examples
 4. Use cases/ Study Cases
@@ -100,14 +100,14 @@ else {
 	httpResponse.cancel(true);
 }
 ```
-the request running in the background allowing the code to continue with the other tasks then handles the response with a `completableFuture`.
+the request running in the background allowing the code to continue with the other tasks and then handles the response with a `completableFuture`.
 
 #### Comments
 1. `_` is a reserved keyword since Java 9
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM3OTAyMDAyLDI2MDI2MzIyMiwtNzQyMD
-U0NDIsODU2ODYwMzgwLC0xMzEyNjUzODM4LC0xMjkxODI2NDUw
-LC01MTg4OTA3MDgsLTE2NjAzODcxOTIsLTEyNzA3MTA4MzIsLT
-c2ODE1MDM4NywtOTQwMjA5MzE5LC01Nzk2MTc4MDIsLTg4NDM4
-MzQyMCwtOTg5OTI5ODJdfQ==
+eyJoaXN0b3J5IjpbLTE2MTM3OTY2MTMsMjYwMjYzMjIyLC03ND
+IwNTQ0Miw4NTY4NjAzODAsLTEzMTI2NTM4MzgsLTEyOTE4MjY0
+NTAsLTUxODg5MDcwOCwtMTY2MDM4NzE5MiwtMTI3MDcxMDgzMi
+wtNzY4MTUwMzg3LC05NDAyMDkzMTksLTU3OTYxNzgwMiwtODg0
+MzgzNDIwLC05ODk5Mjk4Ml19
 -->
