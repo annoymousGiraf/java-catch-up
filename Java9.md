@@ -80,11 +80,29 @@ HttpRequest httpRequest  =  HttpRequest.newBuilder()
 .uri(new  URI("http://localhost:3000"))
 .GET().build();
 ```
+
+```java
+HttpClient httpClient  =  HttpClient.newHttpClient();  //Create a HttpClient
+HttpRequest httpRequest = HttpRequest.
+newBuilder().uri(new URI("http://www.localhost:3000"))
+.GET().build();
+System.out.println("Calling...");
+CompletableFuture<HttpResponse<String>> httpResponse =  httpClient
+.sendAsync(httpRequest,HttpResponse.BodyHandler.asString(); //Send the request asynchronously
+System.out.println("Performing Other Task");
+if(httpResponse.isDone()) {
+System.out.println("Status Code:"+httpResponse.get().statusCode());
+} else {
+httpResponse.cancel(true);
+}
+```
+
 #### Comments
 1. `_` is a reserved keyword since Java 9
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODE4NzU1NTgsODU2ODYwMzgwLC0xMzEyNj
-UzODM4LC0xMjkxODI2NDUwLC01MTg4OTA3MDgsLTE2NjAzODcx
-OTIsLTEyNzA3MTA4MzIsLTc2ODE1MDM4NywtOTQwMjA5MzE5LC
-01Nzk2MTc4MDIsLTg4NDM4MzQyMCwtOTg5OTI5ODJdfQ==
+eyJoaXN0b3J5IjpbLTE3NTk1MTQwNDUsODU2ODYwMzgwLC0xMz
+EyNjUzODM4LC0xMjkxODI2NDUwLC01MTg4OTA3MDgsLTE2NjAz
+ODcxOTIsLTEyNzA3MTA4MzIsLTc2ODE1MDM4NywtOTQwMjA5Mz
+E5LC01Nzk2MTc4MDIsLTg4NDM4MzQyMCwtOTg5OTI5ODJdfQ==
+
 -->
