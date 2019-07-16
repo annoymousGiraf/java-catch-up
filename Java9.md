@@ -136,13 +136,24 @@ Java 9 adds several new methods to the abstract  `Process`  class that let you i
 -   boolean supportsNormalTermination()
 -   ProcessHandle toHandle()
 
+```java
+//Java 9
+Process p = new ProcessBuilder("notepad.exe").start();
+
+//Before Java 9
+Runtime.getRuntime().exec().ProcessBuilder....
+
+```
+
+The process API gives us a better c
+
 #### Comments
 1. `_` is a reserved keyword since Java 9
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODczNDI2MDMsMTU3NDU5NTU4LC0xNj
-EzNzk2NjEzLDI2MDI2MzIyMiwtNzQyMDU0NDIsODU2ODYwMzgw
-LC0xMzEyNjUzODM4LC0xMjkxODI2NDUwLC01MTg4OTA3MDgsLT
-E2NjAzODcxOTIsLTEyNzA3MTA4MzIsLTc2ODE1MDM4NywtOTQw
-MjA5MzE5LC01Nzk2MTc4MDIsLTg4NDM4MzQyMCwtOTg5OTI5OD
-JdfQ==
+eyJoaXN0b3J5IjpbNzQ0MjkyOTExLDE1NzQ1OTU1OCwtMTYxMz
+c5NjYxMywyNjAyNjMyMjIsLTc0MjA1NDQyLDg1Njg2MDM4MCwt
+MTMxMjY1MzgzOCwtMTI5MTgyNjQ1MCwtNTE4ODkwNzA4LC0xNj
+YwMzg3MTkyLC0xMjcwNzEwODMyLC03NjgxNTAzODcsLTk0MDIw
+OTMxOSwtNTc5NjE3ODAyLC04ODQzODM0MjAsLTk4OTkyOTgyXX
+0=
 -->
