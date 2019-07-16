@@ -43,12 +43,12 @@ TBD - Might be a thing of it's on as this is one of the major features of *Java 
 	**iterate**  - now takes 3 parameters `seed` where to start, which value? second `predicate` hasNext? stop condition. `next` what to do with the next value
 	example: 	`IntStream.iterate(1, x-> x < 10 , x-> x+1)`
 3. ofNullable
-	**ofNullable** - the it
+	**ofNullable** - the intention is to have an option of having Optionals in the stream and avoid NPE, this will reduce the boiler plate code of having null checks on each streamline function as we did up until now on Java 8
 
 #### Comments
 1. `_` is a reserved keyword since Java 9
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTU0MzMzMjksLTc2ODE1MDM4NywtOT
-QwMjA5MzE5LC01Nzk2MTc4MDIsLTg4NDM4MzQyMCwtOTg5OTI5
-ODJdfQ==
+eyJoaXN0b3J5IjpbNjk1MjYxNjExLC03NjgxNTAzODcsLTk0MD
+IwOTMxOSwtNTc5NjE3ODAyLC04ODQzODM0MjAsLTk4OTkyOTgy
+XX0=
 -->
