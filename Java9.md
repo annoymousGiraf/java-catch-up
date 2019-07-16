@@ -66,12 +66,12 @@ TBD - Might be a thing of it's on as this is one of the major features of *Java 
 In Java 9 Oracle started supporting HTTP/2 Protocol as well as WebSocket features. while the current protocol supported Websocket only on blocking mode. 
 ##### What is HTTP/2 ?
 
-HTTP/2 can send multiple requests for data in parallel over a single TCP connection. it allows to download web files via Async mode from one server, Most of the modern browsers limit TCP connection to one server.  while in HTTP/1 you needed 3 different  connections to download 3 files. it is using header comperssion to reduce overhead hence less band
+HTTP/2 can send multiple requests for data in parallel over a single TCP connection. it allows to download web files via Async mode from one server, Most of the modern browsers limit TCP connection to one server.  while in HTTP/1 you needed 3 different  connections to download 3 files. it is using header compression to reduce overhead hence less bandwidth.  it allows servers to push responses proactively to the clients instead of waiting for a new request for each resource. 
 #### Comments
 1. `_` is a reserved keyword since Java 9
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzMTE3MTk1OCwtMTMxMjY1MzgzOCwtMT
-I5MTgyNjQ1MCwtNTE4ODkwNzA4LC0xNjYwMzg3MTkyLC0xMjcw
-NzEwODMyLC03NjgxNTAzODcsLTk0MDIwOTMxOSwtNTc5NjE3OD
-AyLC04ODQzODM0MjAsLTk4OTkyOTgyXX0=
+eyJoaXN0b3J5IjpbOTMwMzc2NTg3LC0xMzEyNjUzODM4LC0xMj
+kxODI2NDUwLC01MTg4OTA3MDgsLTE2NjAzODcxOTIsLTEyNzA3
+MTA4MzIsLTc2ODE1MDM4NywtOTQwMjA5MzE5LC01Nzk2MTc4MD
+IsLTg4NDM4MzQyMCwtOTg5OTI5ODJdfQ==
 -->
