@@ -33,24 +33,28 @@ TBD - Might be a thing of it's on as this is one of the major features of *Java 
   1. takeWhile/DropWhile
 		
 		**takeWhile** - predicate functional interface will take all the values until the predicate
+	   
 	    `Stream.of("a","b","c","","e").takeWhile(str -> !str.isEmpty())`
 		the stream will be `abc` in the case the stream will take values until the the predicate will not be true anymore.
 
 		**dropWhile** - will drop all values until  the predicate is not met
+		
 		`Stream.of("a","b","c","","e").dropWhile(str -> !str.isEmpty())`
 		output will be `e` in that case it will not take any value until the condition will be true
 2. Iterate
 	**iterate**  - now takes 3 parameters `seed` where to start, which value? second `predicate` hasNext? stop condition. `next` what to do with the next value
+	
 	example: 	`IntStream.iterate(1, x-> x < 10 , x-> x+1)`
 3. ofNullable
 	**ofNullable** - the intention is to have an option of having Optionals in the stream and avoid NPE, this will reduce the boiler plate code of having null checks on each streamline function as we did up until now on Java 8 then we can safely execute the following snippet. 
+
 	`Employee emp = getEmployee(empId);
 	Stream.ofNullable(emp).flatMap(Employee::roles)`
 
 #### Comments
 1. `_` is a reserved keyword since Java 9
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzA3MTA4MzIsLTc2ODE1MDM4NywtOT
-QwMjA5MzE5LC01Nzk2MTc4MDIsLTg4NDM4MzQyMCwtOTg5OTI5
-ODJdfQ==
+eyJoaXN0b3J5IjpbLTE2NjAzODcxOTIsLTEyNzA3MTA4MzIsLT
+c2ODE1MDM4NywtOTQwMjA5MzE5LC01Nzk2MTc4MDIsLTg4NDM4
+MzQyMCwtOTg5OTI5ODJdfQ==
 -->
